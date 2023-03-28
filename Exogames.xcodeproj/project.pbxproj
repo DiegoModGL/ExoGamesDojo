@@ -14,6 +14,11 @@
 		3B2D9B1F29D3341B00A81C57 /* ExogamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D9B1E29D3341B00A81C57 /* ExogamesTests.swift */; };
 		3B2D9B2929D3341B00A81C57 /* ExogamesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D9B2829D3341B00A81C57 /* ExogamesUITests.swift */; };
 		3B2D9B2B29D3341B00A81C57 /* ExogamesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D9B2A29D3341B00A81C57 /* ExogamesUITestsLaunchTests.swift */; };
+		3B2D9B3C29D38C2900A81C57 /* CompetitorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D9B3B29D38C2900A81C57 /* CompetitorsView.swift */; };
+		3B2D9B3E29D38C5500A81C57 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D9B3D29D38C5500A81C57 /* FavoritesView.swift */; };
+		3B2D9B4029D38C7900A81C57 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D9B3F29D38C7900A81C57 /* CalendarView.swift */; };
+		3B2D9B4229D38CB100A81C57 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D9B4129D38CB100A81C57 /* HomeView.swift */; };
+		3B2D9B4529D38F6B00A81C57 /* CenterTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2D9B4429D38F6B00A81C57 /* CenterTabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		3B2D9B2429D3341B00A81C57 /* ExogamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExogamesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B2D9B2829D3341B00A81C57 /* ExogamesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExogamesUITests.swift; sourceTree = "<group>"; };
 		3B2D9B2A29D3341B00A81C57 /* ExogamesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExogamesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B2D9B3B29D38C2900A81C57 /* CompetitorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitorsView.swift; sourceTree = "<group>"; };
+		3B2D9B3D29D38C5500A81C57 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		3B2D9B3F29D38C7900A81C57 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		3B2D9B4129D38CB100A81C57 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3B2D9B4429D38F6B00A81C57 /* CenterTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterTabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,11 @@
 		3B2D9B0C29D3341900A81C57 /* Exogames */ = {
 			isa = PBXGroup;
 			children = (
+				3B2D9B4329D38D6100A81C57 /* Event */,
+				3B2D9B3A29D38C0A00A81C57 /* Competitors */,
+				3B2D9B3929D38C0500A81C57 /* Favorites */,
+				3B2D9B3829D38BFA00A81C57 /* Calendar */,
+				3B2D9B3729D38BE100A81C57 /* Home */,
 				3B2D9B0D29D3341900A81C57 /* ExogamesApp.swift */,
 				3B2D9B0F29D3341900A81C57 /* ContentView.swift */,
 				3B2D9B1129D3341B00A81C57 /* Assets.xcassets */,
@@ -125,6 +140,46 @@
 				3B2D9B2A29D3341B00A81C57 /* ExogamesUITestsLaunchTests.swift */,
 			);
 			path = ExogamesUITests;
+			sourceTree = "<group>";
+		};
+		3B2D9B3729D38BE100A81C57 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3B2D9B4129D38CB100A81C57 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3B2D9B3829D38BFA00A81C57 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				3B2D9B3F29D38C7900A81C57 /* CalendarView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		3B2D9B3929D38C0500A81C57 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				3B2D9B3D29D38C5500A81C57 /* FavoritesView.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		3B2D9B3A29D38C0A00A81C57 /* Competitors */ = {
+			isa = PBXGroup;
+			children = (
+				3B2D9B3B29D38C2900A81C57 /* CompetitorsView.swift */,
+			);
+			path = Competitors;
+			sourceTree = "<group>";
+		};
+		3B2D9B4329D38D6100A81C57 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				3B2D9B4429D38F6B00A81C57 /* CenterTabBarView.swift */,
+			);
+			path = Event;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +312,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2D9B4029D38C7900A81C57 /* CalendarView.swift in Sources */,
+				3B2D9B3E29D38C5500A81C57 /* FavoritesView.swift in Sources */,
 				3B2D9B1029D3341900A81C57 /* ContentView.swift in Sources */,
+				3B2D9B4229D38CB100A81C57 /* HomeView.swift in Sources */,
 				3B2D9B0E29D3341900A81C57 /* ExogamesApp.swift in Sources */,
+				3B2D9B3C29D38C2900A81C57 /* CompetitorsView.swift in Sources */,
+				3B2D9B4529D38F6B00A81C57 /* CenterTabBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
